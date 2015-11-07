@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <title>Fowler, Craig</title>
-<meta name="description" content="">
+<meta name="description" content="A personal site illustrating activities and projects I've contributed to.">
 <link rel="shortcut icon" href="assets/img/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

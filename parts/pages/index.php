@@ -3,7 +3,7 @@
 		<div class="fs-row">
 			<div class="fs-cell fs-all-full">
 				<div>Craig Fowler</div>
-				<div>is here to do damage.</div>
+				<div>is looking for trouble.</div>
 				<hr class="invisible">
 			</div>
 		</div>
