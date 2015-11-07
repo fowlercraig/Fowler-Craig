@@ -59,9 +59,10 @@ h6 {
 
 a {
   text-decoration: none;
-  color: darken(@textGray, 10%);
+  font-weight: 300;
+  color: darken(@gray, 20%);
   &:hover {
-    color: darken(@textGray, 20%)
+    color: darken(@gray, 40%)
   }
   &.underline {
     border-bottom: 1px solid
@@ -136,6 +137,9 @@ hr {
   }
   &.compact {
     margin: @fs-grid-gutter 0;
+  }
+  &.big {
+    margin: @spaced*2 0
   }
 }
 

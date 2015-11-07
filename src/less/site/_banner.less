@@ -18,15 +18,31 @@
    }
 
    @media @tablet {
-      height: 300px;
+      height: 400px;
    }
 
    @media @desktop {
-      height: 350px;
+      height: 500px;
    }
 
    @media @max {
-      height: 400px;
+      height: 500px;
+   }
+
+   &-small {
+
+      @media @min {
+         height: 300px;
+      }
+
+      @media @tablet {
+         height: 555px;
+      }
+
+      @media @desktop {
+         height: 500px;
+      }
+
    }
 
    &-medium {

@@ -20,6 +20,7 @@
 @gray:        #C9CEC9;
 @warmGray:    #C9CEC9;
 @darkGray:    #939597;
+@orange:      #FF563F;
 
 @brightRed:   #FF2816;
 @softRed:     #ED7161;
@@ -64,6 +65,15 @@
   }
   &-lightPink {
     background-color: @lightPink
+  }
+  &-orange {
+    background: @orange;
+  }
+}
+
+.color {
+  &-orange {
+    color: @orange
   }
 }
 
@@ -192,4 +202,19 @@ img.rounded {
 
 .hidden {
   display: none;
+}
+
+.pinned {
+  position: absolute;
+  width: 100%;
+  &-bottom {
+    bottom: 0;
+  }
+  &-top {
+    top: 0;
+  }
+}
+
+.covered {
+  .cover();
 }

@@ -11,4 +11,10 @@ $(document).ready(function(){
 	});
 	$(".swap").swap();
 
+  $(window).load(function(){
+    setTimeout(function(){
+      $('#home-top').addClass('active');
+    },1000);
+  });
+
 });

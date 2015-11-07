@@ -1,69 +1,78 @@
-
-<div class="wallpaper banner banner-medium fs-cell fs-full-all" data-background-options='{"source":{"0px":"/assets/IMG_1406-mobile.jpg","740px":"/assets/IMG_1406.jpg"}}'>
-	<div class="centered fs-all-full fs-contained">
+<div id="home-top" class="banner banner-xlarge">
+	<div class="centered centered-full">
 		<div class="fs-row">
-			<div class="fs-cell fs-all-full text-center">
-				<h2>Now available in the shop:<br> Skinnings in Knot White</h2>
-				<a class="btn btn-sm btn-link">Click Here</a>
+			<div class="fs-cell fs-all-full">
+				<div>Craig Fowler</div>
+				<div>is here to do damage.</div>
+				<hr class="invisible">
 			</div>
 		</div>
 	</div>
 </div>
 
-<hr class="invisible">
-
-<div class="fs-row">
-	<div class="fs-cell fs-lg-4 fs-md-3 fs-sm-3">
-		<img src="http://placehold.it/385x533/eeeeee/eeeeee" class="img-responsive">
-		<div class="meta text-center">
-			<h4>Stories</h4>
-			<h3>Call to action lorem ipsum</h3>
+<div id="home-nav">
+	<div class="fs-row">	
+		<div class="fs-cell fs-all-half color-orange">
+			<br>
+			<a href="#">Work</a>&nbsp;&nbsp;
+			<a href="#">About</a>&nbsp;&nbsp;
+			<a href="#">Contact</a>&nbsp;&nbsp;&nbsp;
 		</div>
-	</div>
-	<div class="fs-cell fs-lg-8 fs-md-3 fs-sm-3">
-		<img src="http://placehold.it/800x533/eeeeee/eeeeee" class="img-responsive">
-		<div class="meta text-center">
-			<h4>Stories</h4>
-			<h3>Call to action lorem ipsum</h3>
+		<div class="fs-cell fs-all-half color-orange text-right">
+			<br>
+			<a href="#">Instagram</a>&nbsp;&nbsp;
+			<a href="#">Facebook</a>
 		</div>
 	</div>
 </div>
 
-<hr class="invisible">
+<hr class="invisible big">
 
-<section class="bg-color-bgGray">
+<div class="project">
 	<div class="fs-row">
-		<hr class="invisible fs-cell fs-full-all">
-		<header class="fs-cell fs-full-all text-center">
-			<h2>Timeline Skinnies</h2>
-		</header>
-		<div class="fs-cell fs-lg-fifth fs-md-fifth fs-sm-half"><a href="#"><img src="http://placehold.it/385x500/ffffff/ffffff" class="img-responsive"></a></div>
-		<div class="fs-cell fs-lg-fifth fs-md-fifth fs-sm-half"><a href="#"><img src="http://placehold.it/385x500/ffffff/ffffff" class="img-responsive"></a></div>
-		<div class="fs-cell fs-lg-fifth fs-md-fifth fs-sm-half"><a href="#"><img src="http://placehold.it/385x500/ffffff/ffffff" class="img-responsive"></a></div>
-		<div class="fs-cell fs-lg-fifth fs-md-fifth fs-sm-half"><a href="#"><img src="http://placehold.it/385x500/ffffff/ffffff" class="img-responsive"></a></div>
-		<div class="fs-cell fs-lg-fifth fs-md-fifth fs-sm-half"><a href="#"><img src="http://placehold.it/385x500/ffffff/ffffff" class="img-responsive"></a></div>
-		<hr class="invisible fs-cell fs-full-all">
-	</div>
-</section>
-
-<hr class="invisible fs-cell fs-full-all">
-
-<section class="fs-row">
-	<div class="fs-cell fs-all-full banner inverse bg-color-bgGray">
-		<div class="centered text-center">
-			<h2>Commercial Application <br>Lorem Ipsum Dolor Sit Amet</h2>
-			<a class="btn btn-sm btn-link">Click Here</a>
+		<div class="project-desc fs-cell fs-lg-4 fs-md-3 fs-sm-3">
+			<hr class="invisible">
+			<p class="color-orange">Some Project Title</p>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting 
+				industry. Lorem Ipsum has been the industry's standard dummy 
+				text ever since the 1500s, when an unknown printer took a galley 
+				of type and scrambled it to make a type specimen book. It has 
+				survived not only five centuries, but also the leap into 
+				electronic typesetting, remaining essentially unchanged.
+			</p>
+			<hr class="invisible">
+			<a href="#">Next</a> | <a href="#">Prev</a>
+		</div>
+		<hr class="invisible fs-cell fs-lg-hide fs-md-hide fs-sm-3">
+		<div class="project-image fs-cell fs-lg-7 fs-md-3 fs-sm-3 fs-right">
+			<img src="/assets/image.jpg" />
 		</div>
 	</div>
-</section>
+</div>
 
-<hr class="invisible">
+<hr class="invisible big">
 
-<section class="fs-row">
-	<header class="fs-cell fs-full-all text-center">
-		<h2>Instagram</h2>
-	</header>
-	<div class="fs-cell fs-lg-third fs-md-third fs-sm-third"><a href="#"><img src="http://placehold.it/500x500/eeeeee/eeeeee" class="img-responsive"></a></div>
-	<div class="fs-cell fs-lg-third fs-md-third fs-sm-third"><a href="#"><img src="http://placehold.it/500x500/eeeeee/eeeeee" class="img-responsive"></a></div>
-	<div class="fs-cell fs-lg-third fs-md-third fs-sm-third"><a href="#"><img src="http://placehold.it/500x500/eeeeee/eeeeee" class="img-responsive"></a></div>
-</section>
+<div class="project">
+	<div class="fs-row">
+		<div class="project-desc fs-cell fs-lg-4 fs-md-3 fs-sm-3">
+			<hr class="invisible">
+			<p class="color-orange">Some Project Title</p>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting 
+				industry. Lorem Ipsum has been the industry's standard dummy 
+				text ever since the 1500s, when an unknown printer took a galley 
+				of type and scrambled it to make a type specimen book. It has 
+				survived not only five centuries, but also the leap into 
+				electronic typesetting, remaining essentially unchanged.
+			</p>
+			<hr class="invisible">
+			<a href="#">Next</a> | <a href="#">Prev</a>
+		</div>
+		<hr class="invisible fs-cell fs-lg-hide fs-md-hide fs-sm-3">
+		<div class="project-image fs-cell fs-lg-7 fs-md-3 fs-sm-3 fs-right">
+			<img src="/assets/image.jpg" />
+		</div>
+	</div>
+</div>
+<hr class="invisible big">

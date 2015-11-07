@@ -1,39 +1,57 @@
-body,html {
-   height: 100%;
-}
+#home-top {
+   background-image: url('/assets/image.jpg');
+   background-size: cover;
+   background-color: #000;
+   background-position: center center;
+   background-blend-mode: multiply;
+   transition: background-color 2000ms ease;
 
-#content {
-
-   &.fixed-header {
-
-      padding-top: 75px;
-
+   &.active {
+      background-color: @orange;
    }
 
 }
 
-.home-module {
-
-   display: block;
-   background: @bgGray;
-   margin-top: @fs-grid-gutter*2 ;
-   margin-bottom: @fs-grid-gutter*2;
-
-   &.small {
-      height: 400px;
+#home {
+   &-nav {
+      color: @white;
+      a {
+         color: inherit;
+      }
    }
-
-   &.medium {
-      height: 800px + @spaced;
+   &-overlay {
+      z-index: 99;
+      mix-blend-mode: multiply;   
    }
-
+   &-top {
+      .centered {
+         z-index: 100;
+      }
+      .fs-background {
+         &-container {
+            filter: grayscale(100%);
+            video {
+               filter: grayscale(20%);
+            }
+         }
+      }
+   }
 }
 
-.section {
-
-   padding: @spaced*3 0;
-
-   &--compact {
-      padding: @spaced 0;
+.project {
+   &-image {
+      img {
+         @media @min {
+            height: 400px;
+            width: auto;
+            display: block;
+         }
+         @media @tablet {
+            height: 500px;
+         }
+         @media @desktop {
+            height: auto;
+         }
+      }
    }
 }
